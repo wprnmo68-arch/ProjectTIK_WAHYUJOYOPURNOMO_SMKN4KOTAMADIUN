@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resepmu - Pencari Resep Makanan</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2v6a3 3 0 0 1-3 3 3 3 0 0 1-3-3V2"></path>
+                    <line x1="15" y1="2" x2="15" y2="11"></line>
+                    <path d="M17 15l-1.4 3.5a2 2 0 0 1-1.8 1.5h-1.6a2 2 0 0 1-1.8-1.5L9 15"></path>
+                    <path d="M6 2v20"></path>
+                    <path d="M2 6h8"></path>
+                </svg>
+                <span>Resepmu</span>
+            </a>
+            
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Cari resep, bahan, atau kategori...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="nav-actions">
+                <button id="themeToggle" title="Ubah Tema"><i class="fas fa-moon"></i></button>
+                <button id="authBtn" class="btn-primary"><i class="fas fa-user"></i> Masuk</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Temukan Inspirasi Masakan Setiap Hari</h1>
+            <p>Jelajahi ribuan resep lezat, mudah, dan teruji langsung dari dapur rumahan.</p>
+        </section>
+
+        <!-- Kategori -->
+        <section class="categories">
+            <h2>Kategori Populer</h2>
+            <div class="chip-container" id="categoryContainer">
+                <button class
